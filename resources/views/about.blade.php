@@ -1,5 +1,10 @@
+@extends('homepage.layouts.app')
+ 
+ 
+@section('content')
+
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg bg-light.bg-gradient" id="mainNav">
+        <nav class="navbar navbar-expand-lg bg-light" id="mainNav">
             <div class="container">
                 <h1 class="navbar-brand text-dark" style="font-family: franklin gothic; font-size:28px;" href="#!"><img src="img/logo3.png">VAPE ON</h1>
                 <button class="navbar-toggler font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,3 +21,5 @@
                 </div>
             </div>
         </nav>
+
+@endsection
